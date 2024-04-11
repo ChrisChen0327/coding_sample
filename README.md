@@ -1,1 +1,1 @@
-# GEPD
+# Project introduction
