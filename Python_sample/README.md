@@ -37,11 +37,11 @@ The findings from this project provide valuable insights into user repurchase be
 
 ## Author
 
-[Your Name]
+CHEN Rui
 
 ## Date
 
-[Completion Date of the Project]
+May, 2022
 
 ## Acknowledgments
 
