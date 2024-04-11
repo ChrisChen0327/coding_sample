@@ -1,4 +1,4 @@
-# Instacart Repurchase Behavior Prediction
+# Python coding sample: Instacart Repurchase Behavior Prediction
 
 ## Introduction
 
