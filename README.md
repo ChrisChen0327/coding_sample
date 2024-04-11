@@ -1,4 +1,4 @@
-# STATA coding sample: Analysis of the Influence of the Second Child Policy on Birth Behavior
+# STATA coding sample: Analysis of the Influence of the Second Child Policy on Birth Behavior in China
 
 ## Overview
 
