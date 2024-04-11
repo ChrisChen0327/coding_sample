@@ -1,31 +1,42 @@
-# STATA coding sample: Analysis of the Influence of the Second Child Policy on Birth Behavior in China
+# R Coding Sample: Analysis of Mobile Data and Agricultural Trends in Afghanistan
 
-## Overview
+## Introduction
 
-This project examines the impact of the Second Child Policy on the birth behavior of females using panel data from the CFPS (China Family Panel Studies) for the years 2010 to 2016. The analysis focuses on identifying changes in birth behavior patterns following the policy's implementation, employing various statistical methods to assess the effects.
+This repository contains the analysis code for a Metric Exercise as part of the Big Data and Development Course. The project aims to analyze mobile device data and agricultural trends within Afghanistan, using a dataset that includes information from a Harvest and Displacement working paper. Through this analysis, we aim to uncover patterns in mobile user behavior, community trends, and agricultural production across different regions of Afghanistan during 2021.
 
-## Data
+## Datasets
 
-The study utilizes panel data from CFPS for the years 2010 to 2016. The dataset contains detailed demographic, socioeconomic, and health-related variables for the participants.
+The project utilizes several datasets, including:
+- **Mobile Device Data (2021):** Tracks user ping frequency, drop-off patterns, and changes in behavior around critical dates (e.g., May 1 and August 15).
+- **Agricultural and Community Trends Data:** Incorporates violence data, crop calendars by province and district, NDVI data for 2021, price data for 2020 and 2021, dates of Taliban takeovers, and details on rainfed vs. irrigated croplands.
+
+## Objectives
+
+1. **Mobile Data Analysis:** Explore mobile device data to identify user behavior patterns, focusing on frequency, time-of-day activities, and behavioral changes around significant dates.
+2. **Agricultural Trends Analysis:** Analyze agricultural production data and geographic distribution, assess the impact of Taliban takeovers on the harvest season, and explore the relationship between wheat production and wheat prices in 2021.
+3. **Visualization:** Generate informative visualizations to represent findings meaningfully, focusing on maps and charts that highlight key trends at the district level or within specific grid cells (2.5 x 2.5 km).
 
 ## Methodology
 
-The analysis employs a difference-in-differences (DID) approach, supplemented by logistic regression models to examine the influence of the Second Child Policy on birth behavior. The study focuses on women of childbearing age, excluding male participants and outliers beyond childbearing age.
+The analysis process is structured as follows:
+- **Data Preparation:** Cleaning and consolidating mobile device and agricultural data sets for the year 2021.
+- **Statistical Analysis:** Generating summary statistics to understand the underlying trends in the data.
+- **Visualization:** Creating maps and other graphical representations to visualize agricultural production patterns, the timing of Taliban takeovers relative to the harvest season, and the dynamics of wheat production and pricing.
+- **Trend Analysis:** Investigating user behavior in mobile data around notable dates and analyzing agricultural trends, including the impact of conflict on agricultural outputs.
 
-### Key Steps:
-- **Preparation:** Data cleaning and setting up the environment.
-- **Variable Creation:** Generating new variables such as `incremental_children` to capture changes in the number of children post-policy, `policy_supportor` indicating whether the female that have 1st kid actually have a baby after the 2016 policy, and several dummy variables for analytical purposes.
-- **Descriptive Statistics:** Summarizing the data to understand the distribution and central tendencies of key variables.
-- **Modeling:** Applying pooled DID methods, fixed effects (FE) models, and logistic regression to estimate the policy's impact on birth behavior.
-- **Analysis:** Detailed examination of birth behavior before and after the policy's implementation across various demographics and socioeconomic statuses.
+## Visual Representations
 
-## Code Structure
+- Maps illustrating agricultural production and its geographic distribution.
+- Analysis of Taliban takeover timing in relation to the harvest season.
+- Visuals showing wheat production volumes and average prices throughout 2021.
 
-- **Housekeeping:** Initial setup for data analysis, including setting memory limits and opening a log file.
-- **Data Preparation:** Reading and cleaning the dataset to ensure quality analysis.
-- **Variable Generation and Data Cleaning:** Dropping irrelevant samples, generating new variables, and setting the panel data structure.
-- **Statistical Analysis:** Conducting descriptive statistics, pooled DID analysis, fixed effects modeling, and logistic regression.
-- **Results Documentation:** Using `asdoc` and `reg2docx` for exporting results into a user-friendly document.
+## Usage
+
+Please refer to the individual scripts for instructions on running the analyses. The code is annotated to guide you through each analysis step and the generation of visualizations.
+
+## Contributing
+
+Feedback and contributions to this analysis are welcome. Please open an issue or pull request with your suggestions or findings.
 
 ## Author
 
@@ -33,8 +44,4 @@ CHEN Rui
 
 ## Date
 
-15th July 2021
-
-## Note
-
-For detailed instructions on how to run the analysis and interpret the results, refer to the comments within the code files. This project provides insights into the societal implications of China's Second Child Policy on female birth behavior, contributing to the broader understanding of policy impacts on population dynamics.
+Febuary, 2024
