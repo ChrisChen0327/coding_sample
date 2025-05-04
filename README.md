@@ -1,4 +1,4 @@
-# Project Summaries: Data Analysis Across Stata, R, and Python
+# Coding Projects: Data Analysis Across Stata, R, and Python
 
 ## Introduction
 
